@@ -1,0 +1,28 @@
+2025-02-27 02:43:00.694 [info] 
+
+
+
+
+2025-02-27 02:43:00.706 [info] Extension host agent started.
+2025-02-27 02:43:00.756 [info] Started initializing default profile extensions in extensions installation folder. file:///home/ec2-user/.vscode-server/extensions
+2025-02-27 02:43:00.784 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/ec2-user/.vscode-server/extensions
+2025-02-27 02:43:00.792 [info] [<unknown>][f04b6983][ExtensionHostConnection] New connection established.
+2025-02-27 02:43:00.793 [info] [<unknown>][e5bbc9e3][ManagementConnection] New connection established.
+2025-02-27 02:43:00.891 [info] [<unknown>][f04b6983][ExtensionHostConnection] <26641> Launched Extension Host Process.
+2025-02-27 02:44:38.280 [info] [<unknown>][e5bbc9e3][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-02-27 02:44:38.304 [info] [<unknown>][f04b6983][ExtensionHostConnection] <26641> Extension Host Process exited with code: 0, signal: null.
+2025-02-27 02:44:38.305 [info] Cancelling previous shutdown timeout
+2025-02-27 02:44:38.305 [info] Last EH closed, waiting before shutting down
+2025-02-27 02:44:44.605 [info] [<unknown>][cb190a78][ManagementConnection] New connection established.
+2025-02-27 02:44:44.606 [info] [<unknown>][86bad12b][ExtensionHostConnection] New connection established.
+2025-02-27 02:44:44.610 [info] [<unknown>][86bad12b][ExtensionHostConnection] <26876> Launched Extension Host Process.
+2025-02-27 02:49:38.307 [info] New EH opened, aborting shutdown
+2025-02-27 02:49:38.310 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (file:///home/ec2-user/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/out/server-main.js:181:1060)
+    at process.emit (node:events:530:35)
+2025-02-27 03:00:18.145 [info] [<unknown>][c94b1040][ManagementConnection] New connection established.
+2025-02-27 03:00:18.147 [info] [<unknown>][eeeee386][ExtensionHostConnection] New connection established.
+2025-02-27 03:00:18.150 [info] [<unknown>][eeeee386][ExtensionHostConnection] <28893> Launched Extension Host Process.
+2025-02-27 03:01:48.640 [info] [<unknown>][204203cf][ManagementConnection] New connection established.
+2025-02-27 03:01:48.641 [info] [<unknown>][4d172a64][ExtensionHostConnection] New connection established.
+2025-02-27 03:01:48.643 [info] [<unknown>][4d172a64][ExtensionHostConnection] <29014> Launched Extension Host Process.
