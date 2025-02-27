@@ -11,3 +11,14 @@ mvn archetype:generate    -DgroupId=com.nextwork.app    -DartifactId=nextwork-we
 sudo dnf update -y
 sudo dnf install git -y
 git --version
+pwd
+cd
+git init
+git remote add origin https://github.com/Nana-Kwame-ops/nextwork-devops-webapp.git
+git add . 
+git commit -m "Updated index.jsp with new content"
+git push -u origin master
+clear
+git remote add origin https://github.com/Nana-Kwame-ops/nextwork-devops-webapp.git
+git add
+git add .
