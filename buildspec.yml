@@ -4,10 +4,9 @@ phases:
   install:
     runtime-versions:
       java: corretto8
-
   pre_build:
     commands:
-      - echo "Initializing environment"
+      - echo Initializing environment
       - export CODEARTIFACT_AUTH_TOKEN=`aws codeartifact get-authorization-token --domain nextwork --domain-owner 147997128432 --query authorizationToken --output text --region us-east-2`
 
   build:
@@ -15,7 +14,7 @@ phases:
       - echo "====== BEGINNING TEST PHASE ======"
       - echo "Running tests on `date`"
       - chmod +x run-tests.sh
-      - ./run-tests.sh || echo "Tests failed, but continuing build..."
+      - ./run-tests.sh
       - echo "====== TEST PHASE COMPLETE ======"
       - echo "====== BEGINNING BUILD PHASE ======"
       - echo "Build started on `date`"
