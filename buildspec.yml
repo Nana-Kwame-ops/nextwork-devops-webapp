@@ -12,7 +12,7 @@ phases:
   build:
     commands:
       - echo "====== BEGINNING TEST PHASE ======"
-      - cd /home/ec2-user/nextwork-devops-webapp
+      - cd nextwork-devops-webapp
       - echo "Running tests on `date`"
       - chmod +x run-tests.sh
       - ./run-tests.sh
@@ -25,7 +25,7 @@ phases:
   post_build:
     commands:
       - echo "Build completed on `date`"
-      - cd /home/ec2-user/nextwork-devops-webapp
+      - cd nextwork-devops-webapp
       - mvn -s settings.xml package
 
 artifacts:
