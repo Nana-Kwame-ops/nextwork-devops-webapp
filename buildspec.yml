@@ -18,13 +18,13 @@ phases:
       - echo "====== TEST PHASE COMPLETE ======"
       - echo "====== BEGINNING BUILD PHASE ======"
       - echo "Build started on `date`"
-      - mvn -s /home/ec2-user/nextwork-devops-webapp/settings.xml compile
+      - mvn -s settings.xml compile
       - echo "====== BUILD PHASE COMPLETE ======"
 
   post_build:
     commands:
       - echo "Build completed on `date`"
-      - mvn -s /home/ec2-user/nextwork-devops-webapp/settings.xml package
+      - mvn -s settings.xml package
 
 artifacts:
   files:
