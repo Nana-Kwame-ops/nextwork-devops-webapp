@@ -26,9 +26,10 @@ Here’s what I’m using for this project:
 - **Amazon EC2**: I'm developing my web app on Amazon EC2 virtual servers, so that software development and deployment happens entirely on the cloud.
 - **VSCode**: For my IDE, I chose Visual Studio Code. It connects directly to my development EC2 instance, making it easy to edit code and manage files in the cloud.
 - **GitHub**: All my web app code is stored and versioned in this GitHub repository.
-- **[COMING SOON] AWS CodeArtifact**: Once it's rolled out, CodeArtifact will store my artifacts and dependencies, which is great for high availability and speeding up my project's build process.
-- **[COMING SOON] AWS CodeBuild**: Once it's rolled out, CodeBuild will take over my build process. It'll compile the source code, run tests, and produce ready-to-deploy software packages automatically.
-- **[COMING SOON] AWS CodeDeploy**: Once it's rolled out, CodeDeploy will automate my deployment process across EC2 instances.
+- **AWS CodeArtifact**: : I configured CodeArtifact to store and manage my project’s artifacts and dependencies, ensuring high availability and accelerating the build process.
+- **AWS CodeBuild**: CodeBuild now manages my build process by automatically compiling source code, running tests, and producing deployment-ready packages.
+- **AWS CodeDeploy**: CodeDeploy automates the deployment process across my EC2 instances, ensuring smooth and consistent software delivery.
+- **AWS CloudFormation**: : I used CloudFormation to define and provision my infrastructure as code, simplifying resource management and enabling easy replication of environments.
 - **[COMING SOON] AWS CodePipeline**: Once it's rolled out, CodePipeline will automate the entire process from GitHub to CodeDeploy, integrating build, test, and deployment steps into one efficient workflow.
 
 
@@ -39,11 +40,11 @@ To get this project up and running on your local machine, follow these steps:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/nextwork-web-project.git
+    git clone https://github.com/Nana-Kwame-ops/nextwork-devops-webapp.git
     ```
 2. Navigate to the project directory:
     ```bash
-    cd nextwork-web-project
+    cd nextwork-devops-webapp
     ```
 3. Install dependencies:
     ```bash
