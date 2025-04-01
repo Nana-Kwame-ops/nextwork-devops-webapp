@@ -1,7 +1,9 @@
 #!/bin/bash
 
 echo "==== RUNNING SIMPLE TESTS ===="
-echo "Running in directory: $(pwd)"
+echo "Current Working Directory: $(pwd)"
+echo "Listing all files in current directory:"
+ls -lah
 
 echo "Test 1: Checking project structure..."
 if [ -d "src" ]; then
@@ -12,8 +14,10 @@ else
 fi
 
 echo "Test 2: Checking for web app files..."
-ls -l src/main/webapp/
-if [ -f "$(pwd)/src/main/webapp/index.jsp" ]; then
+echo "Listing contents of src/main/webapp/:"
+ls -lah src/main/webapp/
+
+if [ -f "src/main/webapp/index.jsp" ]; then
   echo "✅ PASS: index.jsp exists"
 else
   echo "❌ FAIL: index.jsp not found"
