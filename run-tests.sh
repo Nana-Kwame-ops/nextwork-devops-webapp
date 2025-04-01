@@ -10,7 +10,7 @@ else
 fi
 
 echo "Test 2: Checking for web app files..."
-if [ -f "src/main/webapp/index.jsp" ]; then
+if [ -f "nextwork-web-project/src/main/webapp/index.jsp" ]; then
   echo "✅ PASS: index.jsp exists"
 else
   echo "❌ FAIL: index.jsp not found"
